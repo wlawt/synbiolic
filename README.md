@@ -7,6 +7,8 @@ Microsoft Imagine Cup Americas Regional Finalist & Runner-Up
 - [DeepChem](https://github.com/deepchem/deepchem)
 - [IBM RXN Chem](https://rxn.res.ibm.com/rxn/sign-in)
 - [Azure ML](https://azure.microsoft.com/en-ca/services/machine-learning/)
+- [Azure API Management](https://azure.microsoft.com/en-us/services/api-management/)
+- [RXN Finder API](http://hulab.rxnfinder.org/smi2img/)
 
 ## Running the repo
 
