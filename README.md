@@ -4,9 +4,9 @@ Microsoft Imagine Cup Americas Regional Finalist & Runner-Up
 
 ## Acknowledgements
 
-- [link to DeepChem]: https://github.com/deepchem/deepchem
-- [link to IBM RXN Chem]: https://rxn.res.ibm.com/rxn/sign-in
-- [link to Azure ML]: https://azure.microsoft.com/en-ca/services/machine-learning/
+- [link to DeepChem!](https://github.com/deepchem/deepchem)
+- [link to IBM RXN Chem!](https://rxn.res.ibm.com/rxn/sign-in)
+- [link to Azure ML!](https://azure.microsoft.com/en-ca/services/machine-learning/)
 
 ## Running the repo
 
