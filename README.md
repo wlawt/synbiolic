@@ -60,6 +60,12 @@ npm run dev
 
 ![Retrosynthesis Requests](https://github.com/wlawt/synbiolic/blob/master/client/src/components/img/retro.png)
 
+## Contributors to Synbiolic
+
+- [Joey Mach](https://twitter.com/joeymach_)
+- [Aryan Misra](https://twitter.com/AryanMisra7)
+- [William Law](https://twitter.com/wlaw_)
+
 ## Update Logs (user: wlawt)
 
 #### April 5, 2020
