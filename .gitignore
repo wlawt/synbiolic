@@ -1,0 +1,14 @@
+__pycache__/
+.config/
+data/
+config.json
+.ipynb_checkpoints
+
+/node_modules
+package-lock.json
+.vscode
+/config/keys_dev.js
+dostest.py
+
+/train-main
+/inhibition_activity_test

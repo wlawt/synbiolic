@@ -1,0 +1,889 @@
+/*==============================================================
+    Laptop, Desktop
+================================================================*/
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .navbar-nav .nav-item .nav-link {
+        font-size: 14px;
+        padding: 0 8px;
+    }
+    h1 {
+        font-size: 46px;
+        line-height: 56px;
+    }
+    h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    #home-area {
+        padding: 30px 0 0;
+        background-size: auto
+    }
+    .caption-img {
+        padding: 28% 0 0;
+    }
+    .home-newsletter {
+        padding: 40px 25px 50px;
+        margin: 9% 30px 60px;
+    }
+    .core-feat-single {
+        padding: 20px 16px 8px;
+    }
+    .core-feat-single h4 {
+        font-size: 18px;
+        line-height: 28px;
+    }
+}
+
+
+/*==============================================================
+    Tablet
+================================================================*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    #collapsingNavbar2 {
+        background-color: #fff;
+        padding: 30px 0 40px;
+    }
+    .navbar-nav .nav-item .nav-link {
+        color: #131a48;
+        padding: 5px 0;
+        display: inline-block
+    }
+    .nav-item .nav-link.active,
+    .nav-item .nav-link:hover {
+        color: #2273f8
+    }
+    .navbar-nav.buy-btn .nav-link {
+        background-color: #2273f8;
+        color: #fff;
+        padding: 8px 16px;
+        margin-top: 10px
+    }
+    .navbar-toggler {
+        background-color: #fff;
+        margin-left: 30px !important;
+    }
+    .navbar-toggler:focus,
+    .navbar-toggler:hover {
+        outline: 0
+    }
+    .sticky .navbar-toggler {
+        background-color: #131a48;
+        color: #fff
+    }
+    h1 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    #about-area {
+        padding: 92px 0 100px;
+    }
+    #home-area,
+    .caption-content {
+        height: auto
+    }
+    .caption-content {
+        padding: 150px 0 0;
+    }
+    .caption-img {
+        padding: 160px 0 0;
+        text-align: center;
+    }
+    .caption-img img {
+        max-width: 350px;
+    }
+    .newsletter .caption-img img {
+        max-width: 260px;
+    }
+    .home-newsletter {
+        padding: 40px 20px 50px;
+        margin: 0 0 120px;
+    }
+    .slide-single {
+        padding: 0 5%;
+    }
+    .slide-single .caption-img img {
+        padding: 0 0 80px;
+    }
+    .caption-content a {
+        padding: 10px 18px;
+        border: 1px solid #131a48
+    }
+    .caption-content a:hover {
+        border-color: #ddd
+    }
+    .about-content {
+        margin: 0 0 40px;
+    }
+    .about-img img {
+        width: 100%;
+    }
+    .about-content ul {
+        margin: 15px 0 0;
+    }
+    #core-feature-area {
+        padding: 90px 0;
+    }
+    .core-feat-img {
+        padding: 0;
+        margin: 40px 0 0;
+    }
+    #why-choose-area {
+        padding: 90px 0 40px;
+    }
+    .why-choose-single i {
+        width: 65px;
+        height: 65px;
+        line-height: 65px;
+        padding: 0 16px
+    }
+    .why-choose-single .content {
+        padding-left: 15px;
+    }
+    .why-choose-single h4 {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .why-choose-img img {
+        margin-top: 70px;
+    }
+    .newsletter-box {
+        padding: 60px;
+        text-align: center;
+    }
+    .newsletter-form {
+        margin: 30px 0 0;
+    }
+    .product-single {
+        margin: 0 0 30px;
+    }
+    .product-single img {
+        max-width: 250px;
+    }
+    #product-area {
+        padding: 90px 0 70px;
+    }
+    #faq-area {
+        padding: 90px 0 80px;
+    }
+    #accordion .card-header a {
+        font-weight: 600;
+        font-size: 16px;
+    }
+    .faq-img img {
+        margin-top: 40px;
+    }
+    .contact-info {
+        padding: 0;
+    }
+    .contact-form button {
+        padding: 10px 24px;
+    }
+
+}
+
+
+/*==============================================================
+    Large Mobile
+================================================================*/
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .logo img,
+    .logo-scroll img {
+        max-width: 120px;
+    }
+    #collapsingNavbar2 {
+        background-color: #fff;
+        padding: 30px 0 40px;
+    }
+    .navbar-nav .nav-item .nav-link {
+        color: #131a48;
+        padding: 5px 0;
+        display: inline-block
+    }
+    .nav-item .nav-link.active,
+    .nav-item .nav-link:hover {
+        color: #2273f8
+    }
+    .navbar-nav.buy-btn .nav-link {
+        background-color: #2273f8;
+        color: #fff;
+        padding: 8px 16px;
+        margin-top: 10px
+    }
+    .navbar-toggler {
+        background-color: #fff;
+        margin-left: 30px !important;
+    }
+    .navbar-toggler:focus,
+    .navbar-toggler:hover {
+        outline: 0
+    }
+    .sticky .navbar-toggler {
+        background-color: #131a48;
+        color: #fff
+    }
+    h1 {
+        font-size: 36px;
+        line-height: 46px;
+    }
+    h2 {
+        font-size: 26px;
+        line-height: 36px;
+    }
+    h4 {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    #home-area,
+    .caption-content {
+        height: auto
+    }
+    .caption-content {
+        padding: 130px 0 0;
+        text-align: center
+    }
+    .caption-img {
+        padding: 50px 0 0;
+        text-align: center;
+    }
+    .caption-img img {
+        max-width: 350px;
+    }
+    .caption-content a {
+        padding: 10px 18px;
+        margin: 30px 0 0;
+    }
+    .slide-single {
+        padding: 0 8%;
+    }
+    .slider .caption-img {
+        padding: 0 0 70px;
+    }
+    .slide-single .caption-img img {
+        max-width: 260px;
+        margin: 10px auto 0;
+    }
+    .newsletter .caption-img img {
+        max-width: 260px;
+        margin: 100px auto 0;
+    }
+    .newsletter .caption-content {
+        padding: 30px 0 0
+    }
+    .home-newsletter {
+        margin: 0 20px 110px;
+    }
+    #about-area {
+        padding: 70px 0 80px;
+    }
+    .about-content {
+        margin: 0 0 40px;
+    }
+    .about-content h4 {
+        margin-bottom: 2px;
+    }
+    .section-heading {
+        margin: 0 0 45px;
+    }
+    #feature-area {
+        padding: 70px 0 35px;
+    }
+    .feature-single {
+        margin: 0 0 40px;
+    }
+    #core-feature-area {
+        padding: 70px 0;
+    }
+    .core-feat-img {
+        padding: 0;
+        margin: 40px 0 0;
+    }
+    .core-feat-content {
+        padding-top: 0;
+    }
+    #video-area {
+        padding: 70px 0 80px;
+    }
+    #video-area-1 {
+        padding: 70px 0 80px;
+    }
+    .video-player a {
+        font-size: 30px;
+        width: 70px;
+        height: 70px;
+        line-height: 70px;
+        padding: 0 24px;
+    }
+    .core-feat-img img {
+        max-width: 280px;
+    }
+    .why-choose-img img {
+        max-width: 270px;
+    }
+    .why-choose-single .icon {
+        width: 24%;
+        text-align: center
+    }
+    .why-choose-single .content {
+        width: 76%;
+        padding-left: 6px
+    }
+    #why-choose-area {
+        padding: 70px 0 30px;
+    }
+    #newsletter-area {
+        padding: 80px 0;
+    }
+    .newsletter-box {
+        padding: 40px 25px 50px;
+        text-align: center;
+    }
+    .newsletter-form {
+        margin: 20px 0 0;
+    }
+    .product-single {
+        margin: 0 0 30px;
+    }
+    .product-single img {
+        max-width: 100%;
+    }
+    #product-area {
+        padding: 70px 0 50px;
+    }
+    #testimonial-area {
+        padding: 70px 0 115px;
+    }
+    #faq-area {
+        padding: 70px 0 20px;
+    }
+    #accordion .card-header a {
+        font-size: 16px;
+    }
+    .faq-img img {
+        max-width: 270px;
+        margin-top: 30px;
+    }
+    .contact-info {
+        padding: 0 0 15px;
+    }
+    .contact-info-single .icon {
+        width: 16%;
+    }
+    .contact-info-single .content {
+        width: 80%;
+    }
+    #contact-area {
+        padding: 70px 0 65px;
+    }
+    .contact-info-single {
+        margin: 0 0 20px;
+    }
+    .contact-form button {
+        padding: 10px 24px;
+    }
+
+}
+
+
+/*==============================================================
+   Medium Mobile
+================================================================*/
+
+@media only screen and (min-width: 360px) and (max-width: 479px) {
+    .logo img,
+    .logo-scroll img {
+        max-width: 120px;
+    }
+    #collapsingNavbar2 {
+        background-color: #fff;
+        padding: 30px 0 40px;
+    }
+    .navbar-nav .nav-item .nav-link {
+        color: #131a48;
+        padding: 5px 0;
+        display: inline-block
+    }
+    .nav-item .nav-link.active,
+    .nav-item .nav-link:hover {
+        color: #2273f8
+    }
+    .navbar-nav.buy-btn .nav-link {
+        background-color: #2273f8;
+        color: #fff;
+        padding: 8px 16px;
+        margin-top: 10px
+    }
+    .navbar-toggler {
+        background-color: #fff;
+        margin-left: 30px !important;
+    }
+    .navbar-toggler:focus,
+    .navbar-toggler:hover {
+        outline: 0
+    }
+    .sticky .navbar-toggler {
+        background-color: #131a48;
+        color: #fff
+    }
+    h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    h2 {
+        font-size: 26px;
+        line-height: 36px;
+    }
+    h4 {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    #home-area,
+    .caption-content {
+        height: auto
+    }
+    .caption-content {
+        padding: 110px 0 0;
+        text-align: center
+    }
+    .caption-img {
+        padding: 50px 0 0;
+        text-align: center;
+    }
+    .caption-img img {
+        max-width: 350px;
+    }
+    .caption-content a {
+        padding: 8px 14px;
+        margin: 30px 0 0;
+        font-size: 13px
+    }
+    .caption-content a i {
+        font-size: 15px;
+    }
+    .slide-single {
+        padding: 0 8%;
+    }
+    .slider .caption-img {
+        padding: 0 0 70px;
+    }
+    .slide-single .caption-img img {
+        max-width: 240px;
+        margin: 10px auto 0;
+    }
+    .newsletter .caption-img img {
+        max-width: 240px;
+        margin: 100px auto 0;
+    }
+    .newsletter .caption-content {
+        padding: 30px 0 0
+    }
+    .home-newsletter {
+        margin: 0 20px 110px;
+    }
+    .home-newsletter {
+        padding: 30px 15px 40px;
+    }
+    .home-newsletter input {
+        height: 45px;
+        font-size: 14px;
+    }
+    .home-newsletter button {
+        height: 45px;
+    }
+    #about-area {
+        padding: 70px 0 80px;
+    }
+    .about-content {
+        margin: 0 0 40px;
+    }
+    .about-content h4 {
+        margin-bottom: 2px;
+    }
+    .section-heading {
+        margin: 0 0 45px;
+    }
+    #feature-area {
+        padding: 70px 0 35px;
+    }
+    .feature-single {
+        margin: 0 0 40px;
+    }
+    #core-feature-area {
+        padding: 70px 0;
+    }
+    .core-feat-img {
+        padding: 0;
+        margin: 40px 0 0;
+    }
+    .core-feat-content {
+        padding-top: 0;
+    }
+    #video-area {
+        padding: 70px 0 80px;
+    }
+
+    #video-area-1{
+        padding: 70px 0 80px;
+    }
+
+    .video-player a {
+        font-size: 30px;
+        width: 70px;
+        height: 70px;
+        line-height: 70px;
+        padding: 0 24px;
+    }
+    .core-feat-img img {
+        max-width: 280px;
+    }
+    .why-choose-img img {
+        max-width: 270px;
+    }
+    .why-choose-single .icon {
+        width: 24%;
+    }
+    .why-choose-single i {
+        font-size: 30px;
+        width: 70px;
+        height: 70px;
+        line-height: 70px;
+        padding: 0 20px;
+    }
+    .why-choose-single .content {
+        width: 76%;
+        padding-left: 6px
+    }
+    #why-choose-area {
+        padding: 70px 0 30px;
+    }
+    #newsletter-area {
+        padding: 80px 0;
+    }
+    .newsletter-box {
+        padding: 40px 15px 50px;
+        text-align: center;
+    }
+    .newsletter-form {
+        margin: 20px 0 0;
+    }
+    .newsletter-form input {
+        height: 45px;
+    }
+    .newsletter-form button {
+        position: unset;
+        height: 45px;
+        width: 100%;
+        margin-top: 10px;
+    }
+    .product-single {
+        margin: 0 0 30px;
+    }
+    .product-single img {
+        max-width: 100%;
+    }
+    #product-area {
+        padding: 70px 0 50px;
+    }
+    #testimonial-area {
+        padding: 70px 0 115px;
+    }
+    #faq-area {
+        padding: 70px 0 20px;
+    }
+    .card-header {
+        padding: 8px 18px;
+    }
+    #accordion .card-header a {
+        font-size: 15px;
+    }
+    .faq-img img {
+        max-width: 270px;
+        margin-top: 30px;
+    }
+    .contact-info-single i {
+        font-size: 25px;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+    }
+    .contact-info {
+        padding: 0 0 15px;
+    }
+    .contact-info-single .icon {
+        width: 16%;
+    }
+    .contact-info-single .content {
+        width: 80%;
+        padding-left: 6px
+    }
+    #contact-area {
+        padding: 70px 0 65px;
+    }
+    .contact-form input {
+        height: 45px;
+    }
+    .contact-info-single {
+        margin: 0 0 20px;
+    }
+    .contact-form button {
+        padding: 10px 24px;
+        font-size: 14px
+    }
+    #footer {
+        padding: 55px 0 0;
+    }
+    #footer p {
+        padding: 24px 0 40px;
+    }
+}
+
+
+/*==============================================================
+    Small Mobile
+================================================================*/
+
+@media only screen and (min-width: 320px) and (max-width: 359px) {
+    .logo img,
+    .logo-scroll img {
+        max-width: 120px;
+    }
+    #collapsingNavbar2 {
+        background-color: #fff;
+        padding: 30px 0 40px;
+    }
+    .navbar-nav .nav-item .nav-link {
+        color: #131a48;
+        padding: 5px 0;
+        display: inline-block
+    }
+    .nav-item .nav-link.active,
+    .nav-item .nav-link:hover {
+        color: #2273f8
+    }
+    .navbar-nav.buy-btn .nav-link {
+        background-color: #2273f8;
+        color: #fff;
+        padding: 8px 16px;
+        margin-top: 10px
+    }
+    .navbar-toggler {
+        background-color: #fff;
+        margin-left: 30px !important;
+    }
+    .navbar-toggler:focus,
+    .navbar-toggler:hover {
+        outline: 0
+    }
+    .sticky .navbar-toggler {
+        background-color: #131a48;
+        color: #fff
+    }
+    h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    h2 {
+        font-size: 26px;
+        line-height: 36px;
+    }
+    h4 {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    #home-area,
+    .caption-content {
+        height: auto
+    }
+    .caption-content {
+        padding: 110px 0 0;
+        text-align: center
+    }
+    .caption-img {
+        padding: 50px 0 0;
+        text-align: center;
+    }
+    .caption-img img {
+        max-width: 350px;
+    }
+    .caption-content a {
+        padding: 8px 14px;
+        margin: 30px 0 0;
+        font-size: 13px;
+    }
+    .slide-single {
+        padding: 0 8%;
+    }
+    .slider .caption-img {
+        padding: 0 0 70px;
+    }
+    .slide-single .caption-img img {
+        max-width: 240px;
+        margin: 10px auto 0;
+    }
+    .newsletter .caption-img img {
+        max-width: 240px;
+        margin: 100px auto 0;
+    }
+    .newsletter .caption-content {
+        padding: 30px 0 0
+    }
+    .home-newsletter {
+        margin: 0 10px 110px;
+        padding: 40px 10px 50px
+    }
+    .home-newsletter input {
+        height: 45px;
+        font-size: 14px;
+    }
+    .home-newsletter button {
+        height: 45px;
+    }
+    #about-area {
+        padding: 70px 0 80px;
+    }
+    .about-content {
+        margin: 0 0 40px;
+    }
+    .about-content h4 {
+        margin-bottom: 2px;
+    }
+    .section-heading {
+        margin: 0 0 45px;
+    }
+    #feature-area {
+        padding: 70px 0 35px;
+    }
+    .feature-single {
+        margin: 0 0 40px;
+    }
+    #core-feature-area {
+        padding: 70px 0;
+    }
+    .core-feat-img {
+        padding: 0;
+        margin: 40px 0 0;
+    }
+    .core-feat-content {
+        padding-top: 0;
+    }
+    #video-area {
+        padding: 70px 0 80px;
+    }
+
+    #video-area-1 {
+        padding: 70px 0 80px;
+    }
+    .video-player a {
+        font-size: 30px;
+        width: 70px;
+        height: 70px;
+        line-height: 70px;
+        padding: 0 24px;
+    }
+    .core-feat-img img {
+        max-width: 280px;
+    }
+    .why-choose-img img {
+        max-width: 270px;
+    }
+    .why-choose-single .icon {
+        width: 24%;
+    }
+    .why-choose-single i {
+        font-size: 30px;
+        width: 70px;
+        height: 70px;
+        line-height: 70px;
+        padding: 0 20px;
+    }
+    .why-choose-single .content {
+        width: 76%;
+        padding-left: 10px
+    }
+    #why-choose-area {
+        padding: 70px 0 30px;
+    }
+    #newsletter-area {
+        padding: 80px 0;
+    }
+    .newsletter-box {
+        padding: 40px 15px 50px;
+        text-align: center;
+    }
+    .newsletter-form {
+        margin: 20px 0 0;
+    }
+    .newsletter-form input {
+        height: 45px;
+    }
+    .newsletter-form button {
+        position: unset;
+        height: 45px;
+        width: 100%;
+        margin-top: 10px;
+    }
+    .product-single {
+        margin: 0 0 30px;
+    }
+    .product-single img {
+        max-width: 100%;
+    }
+    #product-area {
+        padding: 70px 0 50px;
+    }
+    #testimonial-area {
+        padding: 70px 0 115px;
+    }
+    #faq-area {
+        padding: 70px 0 20px;
+    }
+    #accordion .card-header a {
+        font-size: 15px;
+    }
+    .card-header {
+        padding: 8px 18px;
+    }
+    .faq-img img {
+        max-width: 270px;
+        margin-top: 30px;
+    }
+    .contact-info-single i {
+        font-size: 25px;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+    }
+    .contact-info {
+        padding: 0 0 15px;
+    }
+    .contact-info-single .icon {
+        width: 16%;
+    }
+    .contact-info-single .content {
+        width: 80%;
+        padding-left: 6px
+    }
+    #contact-area {
+        padding: 70px 0 65px;
+    }
+    .contact-info-single {
+        margin: 0 0 20px;
+    }
+    .contact-form button {
+        padding: 10px 24px;
+        font-size: 14px
+    }
+    #footer {
+        padding: 55px 0 0;
+    }
+    #footer p {
+        padding: 24px 0 40px;
+    }
+
+}

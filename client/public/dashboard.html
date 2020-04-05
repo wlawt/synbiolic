@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Synbiolic - Reinventing drug discovery.">
+    <meta name="keywords" content="synbiolic">
+    
+    </style>
+    <!-- Title Page-->
+    <title>Synbiolic</title>
+    <!-- Title -->
+    <title>Multipurpose Template</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="img/core-img/favicon.ico">
+
+    <!-- Core Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Responsive Stylesheet -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Facebook Pixel Code -->
+    
+    <!-- End Facebook Pixel Code -->
+
+</head>
+
+<body class="darker-blue-ng">
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="preload-content">
+            <div id="dream-load"></div>
+        </div>
+    </div>
+
+    <!-- ##### Header Area Start ##### -->
+    <header class="header-area wow fadeInDown" data-wow-delay="0.2s">
+        <div class="classy-nav-container breakpoint-off">
+            <div class="container">
+                <!-- Classy Menu -->
+                <nav class="classy-navbar justify-content-between" id="dreamNav">
+
+                    <!-- Logo -->
+                    <a class="nav-brand" href="index.html" style='width:20%;height: auto; min-width: 15%;'><img src="img/core-img/syn.png" alt="logo"></a>
+
+                    <!-- Navbar Toggler -->
+                    <div class="classy-navbar-toggler">
+                        <span class="navbarToggler"><span></span><span></span><span></span></span>
+                    </div>
+
+                    <!-- Menu -->
+                    <div class="classy-menu">
+
+                        <!-- close btn -->
+                        <div class="classycloseIcon">
+                            <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                        </div>
+
+                        <!-- Nav Start -->
+                        
+                        
+                        <!-- Nav End -->
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <section class="gen section-padding-0-0 clearfix" id="gen">
+    <div class="container">
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <!-- Welcome Video Area -->
+        <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 col-sm-12">
+            <div class="welcome-video-area wow fadeInUp" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
+                        <h3 class="wow fadeInUp" data-wow-delay="0.3s">Generate Molecules</h3>
+                        <div class="form-group">
+                            <label class="control-label mb-1"><p># to Generate</p></label>
+                            <input id="genNum" type="text" class="form-control" aria-required="true" aria-invalid="false" value="">
+                        </div>
+                        <form name="myForm" onSubmit = "validateForm();">
+                            <div class="row form-group">
+                                <div class="col col-md-3">
+                                    <label for="select" class=" form-control-label"><p>Complexity</p></label>
+                                </div>
+                                <div class="col-12 col-md-9">
+                                    <select name="select" id="select" class="form-control">
+                                        <option value="0">Please select</option>
+                                        <option value="1">0-10</option>
+                                        <option value="2">10-20</option>
+                                        <option value="3">20-30</option>
+                                    </select>
+                                </div>
+                                </div>
+                                <p>* Takes a couple seconds after you press the button</p>
+                                </div>
+                        <button type="submit" class="btn dream-btn mt-30 wow fadeInUp" id="btn" onClick="javascript: window.open('catalogue.html?genNum=' + document.getElementById('genNum').value + '&select=' + document.getElementById('select').value);">Generate</button>                            
+                    </form>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section class="info section-padding-0-0 clearfix" id="info">
+        <div class="container">
+            <br>
+            <br>
+            <br>
+            
+            <br>
+            <br>
+            <br>
+            <!-- Welcome Video Area -->
+            <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 col-sm-12">
+                <div class="welcome-video-area wow fadeInUp" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
+                            <h4 class="wow fadeInUp" data-wow-delay="0.3s">Wait... What exactly am I generating?</h4>
+                                <h6 class="wow fadeInUp" data-wow-delay="0.4s">We're creating brand new drug-ready molecules, and showing you how to make them.</h6>
+
+                                <br>
+                                    <p class="wow fadeInUp" data-wow-delay="0.5s"><b>Instructions: </b></p>
+                                    <p class="wow fadeInUp" data-wow-delay="0.6s">> Enter the number of generated molecules you want. 
+                                    <br>> Wait a couple seconds... (It's working, trust me.)
+                                    <br>> The model will output a table which will include the molecular structure in SMILES format and the retro-synthesis pathways (the reactants to produce the molecules) for each generated molecule.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer-area bg-img" style="background-image: url(img/core-img/pattern.png);">
+
+        <!-- ##### Contact Area Start ##### -->
+        <div class="contact_us_area" id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="section-heading text-center">
+                            <!-- Dream Dots -->
+                            <div class="dream-dots justify-content-center wow fadeInUp" data-wow-delay="0.2s">
+                                <span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+                            </div>
+                            <h3 class="wow fadeInUp" data-wow-delay="0.3s">Our code is open source</h3>
+                            <p class="wow fadeInUp" data-wow-delay="0.4s">Check it out if you're into that stuff.</p>
+                            <a class="btn dream-btn mt-30 wow fadeInUp" data-wow-delay="0.6s" href="https://github.com/aryanmisra/synbiolic" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInUp;">take me to the code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                
+            </div>
+        </div>
+        <!-- ##### Contact Area End ##### -->
+
+        <div class="footer-content-area " style="background: url(img/core-img/footer-bg1.png) no-repeat; background-size:cover">
+            
+        </div>
+    </footer>
+    
+    <!-- ##### Header Area End ##### -->
+
+    <!-- ##### Welcome Area Start ##### -->
+    
+    <!-- ##### Team Area End ##### -->
+
+    <!-- ##### Our partners Area start ##### -->
+    
+    <!-- ##### Our partners Area start ##### -->
+
+    <!-- ##### Blog Area Start ##### -->
+    
+    <!-- ##### Blog Area End ##### -->
+
+    <!-- ##### Footer Area Start ##### -->
+    
+    
+    <!-- ##### Footer Area End ##### -->
+
+    <!-- ########## All JS ########## -->
+    <!-- jQuery js -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Popper js -->
+    <script src="js/popper.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- All Plugins js -->
+    <script src="js/plugins.js"></script>
+    <!-- Parallax js -->
+    <script src="js/dzsparallaxer.js"></script>
+
+    <script src="js/jquery.syotimer.min.js"></script>
+
+    <!-- script js -->
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
