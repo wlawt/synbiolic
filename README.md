@@ -28,15 +28,15 @@ npm run dev
 
 #### Landing Page
 
-![Landing page](https://github.com/wlawt/synbiolic/bloc/master/client/src/components/img/landing.png)
+![Landing page](https://github.com/wlawt/synbiolic/blob/master/client/src/components/img/landing.png)
 
 #### User onboarding
 
-![User onboarding](https://github.com/wlawt/synbiolic/bloc/master/client/src/components/img/welcome.png)
+![User onboarding](https://github.com/wlawt/synbiolic/blob/master/client/src/components/img/welcome.png)
 
 #### Generate Molecules
 
-![Generate Molecules](https://github.com/wlawt/synbiolic/bloc/master/client/src/components/img/generate.png)
+![Generate Molecules](https://github.com/wlawt/synbiolic/blob/master/client/src/components/img/generate.png)
 
 - The number of recommended molecules to generate is 20-50 (for demo purposes).
 - It will then take you to all the generated molecules - where you can view the molecules and the plc-50 distribution
@@ -45,11 +45,11 @@ npm run dev
 
 #### View saved molecules
 
-![Saved Molecules](https://github.com/wlawt/synbiolic/bloc/master/client/src/components/img/saved.png)
+![Saved Molecules](https://github.com/wlawt/synbiolic/blob/master/client/src/components/img/saved.png)
 
 #### View Retrosynthesis Requests
 
-![Retrosynthesis Requests](https://github.com/wlawt/synbiolic/bloc/master/client/src/components/img/retro.png)
+![Retrosynthesis Requests](https://github.com/wlawt/synbiolic/blob/master/client/src/components/img/retro.png)
 
 ## Update Logs (user: wlawt)
 
