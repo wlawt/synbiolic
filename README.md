@@ -4,6 +4,7 @@ Microsoft Imagine Cup Americas Regional Finalist & Runner-Up
 
 ## Acknowledgements
 
+- [Deep reinforcement learning for de novo drug design Popova et. al 2018](https://advances.sciencemag.org/content/4/7/eaap7885)
 - [DeepChem](https://github.com/deepchem/deepchem)
 - [IBM RXN Chem](https://rxn.res.ibm.com/rxn/sign-in)
 - [Azure ML](https://azure.microsoft.com/en-ca/services/machine-learning/)
