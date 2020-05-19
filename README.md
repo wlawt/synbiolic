@@ -25,13 +25,12 @@ Microsoft Imagine Cup Americas Regional Finalist & Runner-Up
 
 ```
 git clone https://github.com/wlawt/synbiolic.git
-cd synbiolic-webapp
+cd synbiolic
 ```
 
 #### To run Synbiolic:
 
 ```
-cd synbiolic
 npm install
 cd client
 npm install
