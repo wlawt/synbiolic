@@ -2,6 +2,8 @@
 
 Microsoft Imagine Cup Americas Regional Finalist & Runner-Up
 
+Check out [Synbiolic](https://synbiolic.com/)!
+
 ## Acknowledgements
 
 - [Deep reinforcement learning for de novo drug design Popova et. al 2018](https://advances.sciencemag.org/content/4/7/eaap7885)
