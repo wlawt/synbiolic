@@ -72,6 +72,7 @@ npm run dev
 - [Joey Mach](https://twitter.com/joeymach_)
 - [Aryan Misra](https://twitter.com/AryanMisra7)
 - [William Law](https://twitter.com/wlaw_)
+- [Suraj Bansal](https://twitter.com/surajbansal2003)
 
 ## Update Logs (user: wlawt)
 
